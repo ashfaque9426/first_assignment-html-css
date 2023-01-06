@@ -1,29 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-/* root variables for later use case */
-:root {
-    --primary-color: rgb();
-    --secondery-color: rgb();
-    --white: #FFFFFF; 
-    --text-color: #757575;
-    --bg-color: #FFF8F3;
-}
-
-/* utility classes */
-.text-primary {
-    color: #FD6E0A;
-}
 
 /* universal rules */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Work Sans',
+        sans-serif;
 }
 
 /* styles within body starts from here */
 body {
     width: 100%;
     min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+/* banner section styles */
+header[role="banner"] {
+    background-image: url("../assets/banner-images/banner3.png");
+    background-position: center;
+    background-size: cover;
+    height: 808px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: right;
+}
+
+.banner-contact {
+    padding-top: 216px;
+    width: 808px;
+    text-align: right;
+}
+
+.header-title {
+    width: 600px;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-subtitle {
+    width: 600px;
+    margin: 24px 0 32px;
+    padding-left: 111px;
+    line-height: 26px;
+}
+
+.contact-btn {
+    width: 600px;
+}
+
+.contact-btn button {
+    padding: 21px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    cursor: pointer;
 }
