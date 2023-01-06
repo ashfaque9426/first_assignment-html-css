@@ -146,6 +146,7 @@ main .failure-article-container {
     border: none;
     height: 300px;
     border-radius: 5px;
+    box-shadow: 0 0 15px #005da2;
     background-image: url("../assets/gradients-of-choice/gradient1.png"), url("../assets/bg-images/watch.png");
     color: #FFFFFF;
     display: flex;
@@ -167,6 +168,128 @@ main .failure-article-container {
 .callnow-btn {
     padding: 15px 35px;
     color: #005FAC;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* my custom section styles */
+main .my-section-container {
+    padding: 70px 0 100px 0;
+    background-image: url("../assets/bg-images/joshua-reddekopp-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.my-section-container .site-links-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.my-section-container .link-container {
+    text-align: center;
+}
+
+.my-section-container .link-container li.link-address {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 15px 10px 0;
+    
+}
+
+.my-section-container .link-container li.link-address a {
+    color: #FFFFFF;
+}
+
+.my-section-container .video {
+    margin: 30px 0 100px;
+    text-align: center;
+}
+
+.my-section-container .video .web-dev-guideline-title {
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-left: -301px;
+}
+
+/* footer section styles */
+footer {
+    margin-top: 250px;
+    padding: 100px 0;
+    background-color: #151414;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer section.contact-info {
+    width: 485px;
+}
+
+footer .future-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+footer .future-subtitle {
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+footer .email-address, .phone-num {
+    margin-bottom: 20px;
+}
+
+footer li.social-list-item {
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer .fa-brands {
+    margin-right: 10px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+/* footer subscribe section styles */
+footer .subscribe .subscribe-title {
+    margin-top: -133px;
+    margin-left: -133px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+footer .subscribe form {
+    margin-left: -133px;
+}
+
+footer .subscribe form input{
+    display: block;
+}
+
+footer .subscribe form input[type="email"] {
+    border-color: #FFFFFF;
+    border-radius: 7px;
+    outline: none;
+    background-color: #151414;
+    color: #FFFFFF;
+    padding: 15px 55px 15px 9px;
+    margin-bottom: 10px;
+}
+
+footer .subscribe form input[type="submit"] {
+    padding: 9px 15px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 7.5px;
+    font-size: 20px;
     font-weight: 600;
     cursor: pointer;
 }
